@@ -4,7 +4,6 @@ const fs = require("fs");
 const { Doctor, validateDoctor } = require("../models/doctor");
 const Appointment = require("../models/appointment");
 const ChatRequest = require("../models/chatRequest");
-
 const bcrypt = require("bcryptjs");
 const { upload } = require("../middlewares/uploads");
 router.post("/register", async (req, res) => {
